@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://uc.orivin.com/$1 [R,L]
+#ErrorDocument 404 /index.php
+#ErrorDocument 403 /index.php
